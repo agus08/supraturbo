@@ -16,6 +16,8 @@
     "next": "15.1.6"
   },
   "devDependencies": {
+    "@repo/config-eslint": "workspace:*",
+    "@repo/config-ts": "workspace:*",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",

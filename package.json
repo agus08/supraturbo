@@ -2,10 +2,11 @@
   "name": "supraturbo",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "author": "Agus Setiawan",
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",

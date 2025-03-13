@@ -2,10 +2,14 @@
   "name": "@repo/types",
   "main": "./index.ts",
   "types": "./index.ts",
+  "private": true,
+  "type": "module",
   "scripts": {
     "type-check": "tsc"
   },
   "devDependencies": {
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "@repo/config-ts": "workspace:*",
+    "@types/node": "^22.12.0"
   }
 }
