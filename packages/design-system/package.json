@@ -1,0 +1,37 @@
+{
+  "name": "@repo/design-system",
+  "version": "0.0.0",
+  "description": "",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./styles.css": "./dist/index.css"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/index.css",
+    "lint": "eslint src/",
+    "dev": "tailwindcss -i ./src/styles.css -o ./dist/index.css --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@repo/config-eslint": "workspace:*",
+    "@repo/config-tailwind": "workspace:*",
+    "@repo/config-ts": "workspace:*",
+    "@types/react": "^19.0.10",
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^5.0.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}
