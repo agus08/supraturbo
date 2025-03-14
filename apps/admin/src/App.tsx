@@ -1,14 +1,14 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <button className="btn-primary">
+    <div>
+      <button className="btn btn-primary">
         daisy UI Button
       </button>
-    </>
+    </div>
   )
 }
 

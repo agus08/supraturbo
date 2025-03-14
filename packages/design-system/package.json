@@ -24,10 +24,11 @@
     "@repo/config-eslint": "workspace:*",
     "@repo/config-tailwind": "workspace:*",
     "@repo/config-ts": "workspace:*",
+    "@types/node": "^22.13.10",
     "@types/react": "^19.0.10",
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.4.18",
     "daisyui": "^5.0.2",
-    "postcss": "^8",
+    "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.8.2"
   },
